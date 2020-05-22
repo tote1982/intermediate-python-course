@@ -30,7 +30,7 @@ if __name__== "__main__":
 
   for i in range(0,players):
       #resultados.append(main(dice_rolls,dice_size))
-      jugador = "player"+str(i)
+      jugador = "player"+str(i+1)
       resultados[jugador] = main(dice_rolls,dice_size)
 
 print(resultados.items())
